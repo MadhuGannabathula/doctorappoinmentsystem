@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Apppointment</title>
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+    <div class="menubar">
+        <a class="active" href="./home.html">Home</a>
+        <a href="./appointment.html">Book Appointment</a>
+        <a href="./contact.html">Contact</a>
+        <a href="./aboutpage.html">About</a>
+    </div>
+    <div class="container">
+        <div class="app_title">
+            <p>Doctor's Appointment</p>
+        </div>
+        <form>
+            <label for="fname">First name:</label>
+            <label for="phonenumber" id="numbertag">Mobile Number:</label><br>
+            <input type="text" id="fname" name="fname">
+            <input type="number" id="phonenumber1" name="phonenumber"><br>
+            <label for="lname">Last name:</label>
+            <label for="emailID" id="email">email ID:</label><br>
+            <input type="text" id="lname" name="lname">
+            <input type="email" id="emailID" name="emailID"><br>
+
+            <label for="type">Specialization</label>
+            <label for="drname" id="nametag">Doctor:</label><br>
+
+            <select id="type" name="type">  
+                <option value = "01"> Pediatrition  </option>  
+                <option value = "02"> Cardiologists  </option>  
+                <option value = "03"> Dermatologists  </option>  
+                <option value = "04"> SGynecologists  </option>  
+            </select>
+
+            <select id="drname" name="drname">  
+                <option value = "01"> Dr.B.Rajesh  </option>  
+                <option value = "02"> Dr.G.Prasad  </option>  
+                <option value = "03"> Dr.P.Triveni  </option>  
+            </select>  <br>
+
+            <label for="datey">Date of Birth</label>
+            <label for="timey" id="timetag">Prefered Time:</label><br>
+            <input type="date" id="datey" name="birthday">
+            <input type="time" id="timey" name="birthday"><br>
+            <input type="submit" id="SUBBTN" name ="Make appointment">
+          </form>
+    </div>
+</body>
+</html>
